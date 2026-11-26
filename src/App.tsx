@@ -280,7 +280,7 @@ export default function App() {
 
                 <div className="flex items-center gap-4 shrink-0">
                   <a
-                    href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+                    href="./assets/IT365_Lesson_9_Logistic_Regression.pdf"
                     download="IT365_Lesson_9_Logistic_Regression.pdf"
                     className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-slate-300 bg-white text-slate-800 text-sm font-medium hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
                   >
@@ -300,7 +300,7 @@ export default function App() {
                   Complete Lecture Handout (13 Slides)
                 </span>
                 <a
-                  href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+                  href="./assets/IT365_Lesson_9_Logistic_Regression.pdf"
                   download="IT365_Lesson_9_Logistic_Regression.pdf"
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 text-base font-medium hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
                 >

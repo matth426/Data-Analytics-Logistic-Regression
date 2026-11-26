@@ -67,7 +67,7 @@ export function Slide1Title({ onGoToSlide }: SlideProps) {
             Jump to Sigmoid
           </button>
           <a
-            href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+            href="./assets/IT365_Lesson_9_Logistic_Regression.pdf"
             download="IT365_Lesson_9_Logistic_Regression.pdf"
             className="inline-flex items-center gap-2 px-5 py-3.5 rounded-lg border border-slate-300 bg-white text-slate-800 font-medium text-lg hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
           >
