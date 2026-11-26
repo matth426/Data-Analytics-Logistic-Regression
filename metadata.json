@@ -1,0 +1,8 @@
+{
+  "name": "IT365: Logistic Regression",
+  "description": "Interactive lecture on Logistic Regression — IT365 Data Analytics 1, Lesson 9. Content and slides by Mattheus Marcus Contreras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
