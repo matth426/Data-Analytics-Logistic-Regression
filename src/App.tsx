@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { ChevronLeft, ChevronRight, Layers, MonitorPlay } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Download, Layers, MonitorPlay } from 'lucide-react';
 import {
   LEARNING_OBJECTIVES,
   MODULE_START_SLIDE,
@@ -278,13 +278,36 @@ export default function App() {
                   })}
                 </div>
 
-                <div className="font-mono text-base text-slate-600 tabular-nums whitespace-nowrap shrink-0">
-                  {currentSlide} / {SLIDES.length} · {activeMeta.section}
+                <div className="flex items-center gap-4 shrink-0">
+                  <a
+                    href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+                    download="IT365_Lesson_9_Logistic_Regression.pdf"
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg border border-slate-300 bg-white text-slate-800 text-sm font-medium hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+                  >
+                    <Download className="w-4 h-4 text-slate-600" />
+                    <span>PDF</span>
+                  </a>
+                  <div className="font-mono text-base text-slate-600 tabular-nums whitespace-nowrap shrink-0">
+                    {currentSlide} / {SLIDES.length} · {activeMeta.section}
+                  </div>
                 </div>
               </footer>
             </>
           ) : (
             <main className="p-6 sm:p-10 lg:p-14 space-y-16">
+              <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-200">
+                <span className="text-lg font-medium text-slate-600">
+                  Complete Lecture Handout (13 Slides)
+                </span>
+                <a
+                  href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+                  download="IT365_Lesson_9_Logistic_Regression.pdf"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 text-base font-medium hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+                >
+                  <Download className="w-4 h-4 text-slate-600" />
+                  <span>Download PDF Slides</span>
+                </a>
+              </div>
               {SLIDES.map((slide) => (
                 <section
                   key={slide.id}

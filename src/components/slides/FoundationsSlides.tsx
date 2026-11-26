@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { ArrowRight, RotateCcw } from 'lucide-react';
+import { ArrowRight, Download, RotateCcw } from 'lucide-react';
 import {
   LEARNING_OBJECTIVES,
   MODULE_START_SLIDE,
@@ -66,6 +66,14 @@ export function Slide1Title({ onGoToSlide }: SlideProps) {
           >
             Jump to Sigmoid
           </button>
+          <a
+            href="./assets/aistudio/IT365_Lesson_Logistic_Regression_a54d0cdc.pdf"
+            download="IT365_Lesson_9_Logistic_Regression.pdf"
+            className="inline-flex items-center gap-2 px-5 py-3.5 rounded-lg border border-slate-300 bg-white text-slate-800 font-medium text-lg hover:border-slate-500 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+          >
+            <Download className="w-5 h-5 text-slate-600" />
+            <span>Download PDF</span>
+          </a>
         </div>
 
         <p className="pt-4 border-t border-slate-200 text-sm sm:text-base text-slate-500 leading-relaxed">
